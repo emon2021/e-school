@@ -1,0 +1,22 @@
+@media(max-width:992px){
+    .for_responsive{display: none;}
+    .res_width{width: 100%;display: block;}
+    .block-container{
+        margin: auto !important;
+        width: 100%;
+    }
+    .block_in:nth-child(1){margin:0px 0px 50px 25px;}
+    .block_in:nth-child(2){margin:0px 0px 50px 25px;}
+    .l_value{margin: auto;display: grid; align-items: center;}
+    .r_value{margin: auto;}
+    .crsl-wd{display: grid;}
+    .card:first-child{margin-bottom: 50px !important;}
+}
+
+@media(max-width:768px){
+    .block_in{
+        margin: auto !important;
+        margin-top: 50px !important;
+    }
+    
+}
